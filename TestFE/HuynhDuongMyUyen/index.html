@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="./public/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="./public/css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="./public/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./public/css/styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="a">
+            <div class="b">
+                <div id="gr">
+                    <table>
+                        <tr>
+                            <th><b>Konnichiwa</b></th>
+                            <th><b>Konnichiwa</b></th>
+                            <th><b>Konnichiwa</b></th>
+                        </tr>
+                        <tr>
+                            <td>Mlem</td>
+                            <td>Mlem</td>
+                            <td>Mlem</td>
+                        </tr>
+                        <tr>
+                            <td>Mlem</td>
+                            <td>Mlem</td>
+                            <td>Mlem</td>
+                        </tr>
+                        <tr>
+                            <td>Mlem</td>
+                            <td>Mlem</td>
+                            <td>Mlem</td>
+                        </tr>
+                        <tr>
+                            <td>Mlem</td>
+                            <td>Mlem</td>
+                            <td>Mlem</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+        <form action="#" method="get" id="flogin">
+            <h1>Login</h1>
+            <div class="form-group">
+                <label for="username">Username:</label>
+                <input type="text" class="form-control" name="username" id="username" placeholder="Nhập username..."
+                    aria-describedby="helpId">
+                <div class="invalid-feedback">Usernam khong duoc trong</div>
+                <small id="helpId" class="text-muted">Nhap username it nhat 6 ky tu bat ky</small>
+            </div>
+            <div class="form-group">
+                <label for="userpassword">Password:</label>
+                <input type="password" class="form-control" name="userpassword" id="userpassword"
+                    placeholder="Nhập password..." aria-describedby="helpId">
+                <div class="invalid-feedback">Password khong duoc trong</div>
+                <small id="helpId" class="text-muted">password co it nhat 5 ky tu, it nhat 1 ky tu hoa va 1 so</small>
+            </div>
+            <div class="form-group">
+                <label for="exampleInputEmail1">Email:</label>
+                <input type="text" class="form-control" naem="useremail" id="useremail" placeholder="Nhập email..."
+                    aria-describedby="helpId">
+                <div class="invalid-feedback">Email khong hop le</div>
+                <small id="helpId" class="text-muted">We'll never share your email with anyone else.</small>
+            </div>
+            <div class="captcha">
+                <p id="code"></p>                
+            </div>
+            <input type="text" id='input-code'>
+            <button id="send" type="submit">Send</button>
+            <!-- <textarea name="feedback" id="feedback"></textarea> -->
+            <p>Giới tính:</p>
+            <label for="gender-male">
+                <input type="radio" name="gender" value="male" id="gender-male"> Nam
+            </label>
+            <label for="gender-female">
+                <input type="radio" name="gender" value="female" id="gender-female"> Nữ
+            </label>
+            <p>Sở thích:</p>
+            <label for="hobby-money">
+                <input type="checkbox" name="hobby" value="money" id="hobby-money"> Tiền
+            </label>
+            <label for="hobby-travel">
+                <input type="checkbox" name="hobby" value="travel" id="hobby-travel"> Du lịch
+            </label>
+            <label for="hobby-reading">
+                <input type="checkbox" name="hobby" value="reading" id="hobby-reading"> Đọc sách
+            </label>
+            <p>Quốc gia:</p>
+            <select name="nation" id="nation">
+                <option disabled selected>Lựa chọn quốc gia</option>
+                <option value="vi">Việt Nam</option>
+                <option value="jp">Nhật Bản</option>
+                <option value="kr">Hàn Quốc</option>
+            </select>
+        </form>
+        <div class="bg">
+            <div class="row">
+                <div class="col-md-3">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit earum nam aliquam quod?
+                    Necessitatibus, consectetur distinctio
+                    voluptatibus iste numquam, sit hic eum aliquid porro ut exercitationem animi illo, voluptas maiores?
+                </div>
+                <div class="col-md-6">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis dolorem necessitatibus excepturi,
+                    perspiciatis veniam consectetur
+                    atque, nulla sapiente aliquam quaerat voluptas ratione quae obcaecati numquam harum perferendis sit?
+                    Itaque, dicta?
+                </div>
+                <div class="col-md-3">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat, distinctio consequuntur voluptas
+                    laboriosam est laudantium
+                    similique maiores aperiam aut vitae sint rerum cupiditate illo beatae necessitatibus fugiat velit
+                    ipsam
+                    pariatur.
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="owl-carousel owl-theme">
+        <div class="item">
+            <img src="./public/images/home01.jpg" alt="home1">
+        </div>
+        <div class="item">
+            <img src="./public/images/home02.jpg" alt="home2">
+        </div>
+        <div class="item">
+            <img src="./public/images/home03.jpg" alt="home3">
+        </div>
+    </div>
+
+    <script src="./public/js/jquery.min.js"></script>
+    <script src="./public/js/owl.carousel.min.js"></script>
+    <script src="./public/js/sitescrip.js"></script>
+</body>
+
+</html>

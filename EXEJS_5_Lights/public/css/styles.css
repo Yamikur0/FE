@@ -1,0 +1,29 @@
+body {
+    background: gray;
+}
+.light{
+    color: white;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin: 5px 5px;
+    text-align: center;
+    line-height: 50px;
+    position: absolute;
+    display: 
+}
+.red{
+    background: red;
+}
+.blue{
+    background: blue;
+}
+.green{
+    background: green;
+}
+.orange{
+    background: orange;
+}
+.black{
+    background: black;
+}

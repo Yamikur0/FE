@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <!-- <link rel="stylesheet" href="./public/css/styles.css"> -->
+    <link rel="stylesheet" href="./public/css/styles.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+</head>
+
+<body>
+    <div class="container">
+        <form action="./success.html" method="get" id="flogin">
+            <!-- form username -->
+            <div class="form-group ">
+                <label for="username">Staff Name:</label>
+                <input type="text" name="username" id="username" class="form-control" placeholder="Nhập username...." aria-describedby="helpId">
+                <div class="invalid-feedback">
+                    Sai staff name
+                </div>
+                <small id="helpname" class="text-muted">......</small>
+            </div>
+            <!-- form password -->
+            <div class="form-group ">
+                <label for="id">Staff ID:</label>
+                <input type="text" class="form-control" id="id" placeholder="Nhập id.....">
+                <div class="invalid-feedback">
+                    Sai staff ID
+                </div>
+                <small id="helpid" class="text-muted">...</small>
+            </div>
+            <!-- captcha -->
+            <div class="form-group ">
+                <label for="captcha">Captcha</label>
+                <div class="random">ABC</div>
+                <input type="text" class="form-control" id="captcha" placeholder="">
+                <div class="invalid-feedback">
+                    Sai Captcha
+                </div>
+                <small id="helpCaptch" class="text-muted">Vui lòng nhập đúng </small>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+
+    </div>
+
+    <script src="./public/js/sitescript.js"></script>
+    <!-- <script src="./public/js/test.js"></script> -->
+
+</body>
+
+</html>

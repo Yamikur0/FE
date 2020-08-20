@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<title>Calculator</title>
+	<link href="https://fonts.googleapis.com/css?family=Roboto:100" rel="stylesheet">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="public/css/styles.css">
+</head>
+
+<body>
+	<!-- <header>
+		<h1>Bài tập JavaScript | Digital Clock</h1>
+	</header>
+	<div id="digi-clock">
+	</div>
+	<footer>
+		&copy; 2020 FIT - TDC
+	</footer>
+	<script>
+		let clock = setTimeout(function setclock() {
+			let today = new Date();
+			let hours = today.getHours();
+			let minutes = today.getMinutes();
+			let seconds = today.getSeconds();
+			if(hours < 10){
+				hours = '0' + hours;
+			}
+			if(minutes < 10){
+				minutes = '0' + minutes;
+			}
+			if(seconds < 10){
+				seconds = '0' + seconds;
+			}
+			clock = setTimeout(setclock, 1000);
+			document.getElementById("digi-clock").innerHTML = hours + ":" + minutes + ":" + seconds;
+		}, 1000);	
+	</script> -->
+	<div class="pinwheel">
+		<img src="./public/images/pinwheel-psychology-psychologist-clip-art-pinwheel.jpg" alt="pinwheel">
+	</div>
+	<button class="start" style="margin: 50px 0;">Start</button>
+	<button class="stop" style="margin: 50px 0;">Stop</button>
+	<script>
+
+		const btnStart = document.querySelector('.start');
+		btnStart.addEventListener('click', function () {
+			
+		})
+		const a = document.querySelector('.pinwheel img');
+			let b = 0;
+			let pinwheel = setTimeout(function setPinwheel() {
+				b -= 10;
+				a.style.transform = 'rotate(' + b + 'deg)';
+				pinwheel = setTimeout(setPinwheel, 100)
+			}, 100);
+		const btnStop = document.querySelector('.stop');
+		btnStop.addEventListener('click', function () {
+			clearTimeout(pinwheel);
+		});
+	</script>
+</body>
+
+</html>
